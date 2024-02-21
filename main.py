@@ -283,10 +283,10 @@ call_with_tools(
         "*Do not use the `steps` to list anything related to the user message.* "
         "This is OK: The user will not be shown the steps. No harm is done."
     ),
-    user_message="What are the pros and cons of having a hammock in the house?",
+    user_message="Hi!",
 )
 
-print("## without tools")
+print("\n## without tools")
 call_without_tools(
     system_message=(
         "Please respond to the user's message using the `user_response` field. "
@@ -296,7 +296,7 @@ call_without_tools(
         "*Do not use the `steps` to list anything related to the user message.* "
         "This is OK: The user will not be shown the steps. No harm is done."
     ),
-    user_message="What are the pros and cons of having a hammock in the house?",
+    user_message="Hi!",
 )
 
 # %%
